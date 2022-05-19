@@ -1,0 +1,39 @@
+
+.user_reviews {
+    height: auto;
+    margin-bottom: 80px;
+    background-color: #b0adfe60;
+    width: 89%;
+    margin-left: 70px;
+    border-radius: 15px;
+    padding-bottom: 28px;
+}
+
+.user_img2 {
+    float: left;
+    padding-right: 2%;
+}
+
+.user_img {
+    width: 166px;
+    border-radius: 80px;
+    padding-top: 6px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.user_text_blok {
+    padding-left: 224px;
+    padding-top: 2px;
+}
+
+.user_text1 {
+    font-size: 30px;
+}
+
+.user_text2 {
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+@media (max-width: 540px) {}

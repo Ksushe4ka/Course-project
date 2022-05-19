@@ -74,7 +74,7 @@ margin-bottom: 20px;
     display: inline-block;
     background-color: #d2d0ff99;
     width: 90%;
-    height: 400px;
+    height: auto;
     margin-left: 5%;
     margin-bottom: 4%;
     margin-top: 4%;
@@ -86,8 +86,9 @@ margin-bottom: 20px;
     margin-left: 5%;
     padding-left: 5%;
     width: 84%;
-    height: 35%;
+    height: 156px;
     border-radius: 10px;
+    margin-bottom: 59px;
 }
 
 .otziv-zagol {
@@ -96,6 +97,8 @@ margin-bottom: 20px;
     padding-top: 3%;
     margin-top: 1%;
 }
+
+
 
 @media (max-width: 540px) {
     .book {
