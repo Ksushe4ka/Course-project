@@ -195,8 +195,9 @@ margin-bottom: 20px;
         margin-bottom: 0px;
     }
 
+    /*otziv*/
     .book-otziv {
-        height: 225px;
+        height: auto;
         border-radius: 20px;
     }
 

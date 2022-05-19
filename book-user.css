@@ -1,5 +1,5 @@
-
 .user_reviews {
+    display: inline-block;
     height: auto;
     margin-bottom: 80px;
     background-color: #b0adfe60;
@@ -7,6 +7,10 @@
     margin-left: 70px;
     border-radius: 15px;
     padding-bottom: 28px;
+}
+
+.user_reviews2 {
+    display: none;
 }
 
 .user_img2 {
@@ -36,4 +40,51 @@
     margin-right: 15px;
 }
 
-@media (max-width: 540px) {}
+@media (max-width: 540px) {
+    .user_reviews {
+        display: none;
+    }
+
+    .user_reviews2 {
+        display: block;
+        margin-bottom: 52px;
+        border-radius: 15px;
+        width: 90%;
+        background-color: #b0adfe60;
+        padding-bottom: 8px;
+        margin-left: 18px;
+        margin-right: 5px;
+    }
+
+
+    .user_img2 {
+        float: none;
+        padding-right: 2%;
+    }
+
+    .user_img {
+        width: 156px;
+        padding-top: 0px;
+        margin-left: 61px;
+        margin-top: -6px;
+    }
+
+    .user_text_blok {
+        padding-left: 19px;
+        padding-right: 19px;
+        padding-top: 2px;
+    }
+
+    .user_text1 {
+        font-size: 23px;
+        margin-left: 76px;
+        margin-right: 76px;
+    }
+
+    .user_text2 {
+        font-size: 18px;
+        margin-right: 0px;
+        margin-top: 15px;
+        text-align: center;
+    }
+}
