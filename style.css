@@ -8,6 +8,9 @@ body {
     background-color: #B0ADFE;
    
 }
+.bt{
+    display: none;
+}
 .logo1 {
     height: 170px;
     margin-left: 50px;

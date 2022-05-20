@@ -15,8 +15,8 @@
 <body>
     <div class="logo">
         <div class="photo2">
-            <object type="image/svg+xml" data="Новая папка/log.svg" class="logo1" >
-             </object>
+            <object type="image/svg+xml" data="Новая папка/log.svg" class="logo1">
+            </object>
         </div>
         <div class="text">
             <p id="logo-text2">Портал для поверхностного ознакомления с фэнтези книгами </p>
@@ -26,8 +26,8 @@
     </div>
     <div class="topnav" id="myTopnav">
         <div class="search">
-            <form class="form1"><input class="search-area" type="text" placeholder="Искать здесь...">
-
+            <form class="form1"><input id="myInput" class="search-area" type="text" placeholder="Искать здесь...">
+                <button class="bt" id="myBtn" onclick="fun2()">Button</button>
             </form>
         </div>
         <a href="P_Progect.html" class="active">Главная</a>
@@ -106,6 +106,18 @@
                 x.className = "topnav";
             }
         }
+
+        function fun2() {
+            alert("Извините данная функция пока внаходится в разработке")
+        }
+
+        var input = document.getElementById("myInput");
+        input.addEventListener("keyup", function (event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                document.getElementById("myBtn").click();
+            }
+        });
     </script>
 </body>
 
