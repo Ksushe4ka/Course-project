@@ -62,8 +62,9 @@
 
 @media (max-width: 540px) {
     .janre {
-        height: 160px;
+        height: auto;
         margin-top: 20px;
+        padding-bottom: 20px;
     }
 
     #img1 {
@@ -91,10 +92,10 @@
 
     .janre-anat {
         width: 60%;
-        height: 80px;
+        height: auto;
         margin-left: 120px;
         margin-bottom: 0px;
-        padding-bottom: 0px;
+        padding-bottom: 3px;
         margin-top: 15px;
     }
     .ant-hide{
