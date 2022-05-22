@@ -1,11 +1,12 @@
 /* менюха для книг */
 .scrollmenu {
+    display: inline-block;
     background-color: #621CBE;
     overflow: auto;
     white-space: nowrap;
     font-family: inherit;
     width: 90%;
-    margin-left: 5%;
+    margin-left: 0%;
 }
 
 .scrollmenu a {
@@ -49,61 +50,112 @@
     color: #2d0168;
 }
 
+
+.triangle-left {
+    display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 120px solid transparent;
+	border-right: 33px solid #621CBE;
+	border-bottom: 120px solid transparent;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-bottom: 150px;
+}
+
+.triangle-right {
+    display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 120px solid transparent;
+	border-left: 33px solid #621CBE;
+	border-bottom: 120px solid transparent;
+   position: absolute;
+   left: 1456px;
+   top: 650px;
+}
+
+.triangle-right2 {
+    display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 120px solid transparent;
+	border-left: 33px solid #621CBE;
+	border-bottom: 120px solid transparent;
+   position: absolute;
+   left: 1456px;
+   top: 1400px;
+}
+
 @media screen and (max-width: 540px) {
-    /* менюха для книг */ 
+    /* менюха для книг */
+
+    .scrollmenu {
+        display: block;
+        background-color: #621CBE;
+        overflow: auto;
+        white-space: nowrap;
+        font-family: inherit;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .scrollmenu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 2.5%;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .scrollmenu a:hover {
+        background-color: #621CBE;
+    }
+
+    .line {
+        margin-bottom: 2.5%;
+        size: 5%;
+        color: #3B0089;
+        width: 90%;
+    }
+
+    .scrol_photo {
+
+        width: 90%;
+
+        height: 235px;
+    }
+
+    .scrol_text {
+        font-size: 25px;
+        margin-top: 5%;
+        margin-bottom: 0;
+        margin-left: 4.8%;
+        color: #2d0168;
+    }
+
+    .scrol_text1 {
+        font-size: 50px;
+        margin-top: 5%;
+        margin-bottom: 0;
+        margin-left: 4.8%;
+        color: #2d0168;
+    }
+
+    figcaption {
+        font-size: 20px;
+    }
+
+    .triangle-left {
+        display: none;
+    }
     
-   .scrollmenu { 
+    .triangle-right {
+        display: none;
+    }
     
-    background-color: #621CBE; 
-    overflow: auto; 
-    white-space: nowrap; 
-    font-family: inherit; 
-    width: 90%; 
-    margin-left: 5%; 
-} 
- 
-.scrollmenu a { 
-    display: inline-block; 
-    color: white; 
-    text-align: center; 
-    padding: 2.5%; 
-    text-decoration: none; 
-    font-size: 30px; 
-} 
- 
-.scrollmenu a:hover { 
-    background-color: #621CBE; 
-} 
- 
-.line { 
-    margin-bottom: 2.5%; 
-    size: 5%; 
-    color: #3B0089; 
-    width: 90%; 
-} 
-.scrol_photo { 
- 
-    width: 90%; 
- 
-    height: 235px;
-} 
- 
-.scrol_text { 
-    font-size: 25px; 
-    margin-top: 5%; 
-    margin-bottom: 0; 
-    margin-left: 4.8%; 
-    color: #2d0168; 
-} 
- 
-.scrol_text1 { 
-    font-size: 50px; 
-    margin-top: 5%; 
-    margin-bottom: 0; 
-    margin-left: 4.8%; 
-    color: #2d0168; 
-} 
-figcaption { 
-  font-size: 20px ; 
-} 
+    .triangle-right2 {
+        display: none;
+    }
 }

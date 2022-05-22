@@ -73,6 +73,19 @@
             if (confirm("Отправить отзыв?"))
                 alert("Ваш отзыв отправлен и будет добавлен на страницу в ближайшие 3 часа");
         }
+        
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+        function fun2() {
+            alert("Извините данная функция пока внаходится в разработке")
+        };
 
     </script>
 </body>

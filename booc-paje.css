@@ -2,7 +2,7 @@
 
 .book {
     display: inline-block;
-    background-color: #d2d0ff99;
+    background-color: #DFDDFF;
     width: 90%;
     height: 530px;
     margin-left: 5%;
@@ -19,9 +19,9 @@
 }
 
 .line3 {
-display: block;
-width: 1350px;
-margin-bottom: 20px;
+    display: block;
+    width: 1350px;
+    margin-bottom: 20px;
 }
 
 .obook {
@@ -64,15 +64,21 @@ margin-bottom: 20px;
     font-size: 35px;
     margin-top: 3%;
 }
+
 #book-t3 {
     font-size: 30px;
 }
+
+.book-text_mob {
+    display: none;
+}
+
 
 /*otziv*/
 
 .book-otziv {
     display: inline-block;
-    background-color: #d2d0ff99;
+    background-color: #DFDDFF;
     width: 90%;
     height: auto;
     margin-left: 5%;
@@ -132,6 +138,7 @@ margin-bottom: 20px;
     #b-img1 {
         height: 390px;
         width: 100%;
+        margin: auto;
     }
 
     #book-t2 {
@@ -147,18 +154,24 @@ margin-bottom: 20px;
     }
 
     .book-img {
-        margin-left: 10%;
-        float: left;
-        padding-right: 4%;
-        margin-top: 20px;
+        display: block;
+        margin: 0 auto;
     }
 
     .book-text {
+        display: none;
+    }
+
+    .book-text_mob {
+        display: block;
         border-radius: 20px;
-        background-color: #d2d0ff99;
+        background-color: #DFDDFF;
         padding-top: 0px;
         margin-top: 50px;
         height: auto;
+        color: #2d0168;
+        width: 90%;
+        margin-left: 5%;
     }
 
     .book-text1av {

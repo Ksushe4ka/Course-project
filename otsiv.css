@@ -22,9 +22,9 @@ legend {
 	font-size: 30px;
 	text-align: center;
 	color: #2d0168;
-	background-color: #d2d0ff99;
+	background-color: #DFDDFF;
     border-radius: 10px;
-	border-color: #d2d0ff99;
+	border-color: #DFDDFF;
 }
 
 @media (max-width: 540px) {
@@ -50,8 +50,8 @@ legend {
 		font-size: 20px;
 		text-align: center;
 		color: #2d0168;
-		background-color: #d2d0ff99;
+		background-color: #DFDDFF;
 		border-radius: 10px;
-		border-color: #d2d0ff99;
+		border-color: #DFDDFF;
 	}
 }
