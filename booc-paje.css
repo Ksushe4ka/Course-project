@@ -110,7 +110,8 @@
     .book {
         border-radius: 20px;
         margin-top: 34px;
-        height: 642px;
+        height: 685px;
+        text-align: center;
     }
 
     .tit {
@@ -120,6 +121,7 @@
     .tit2 {
         display: none;
     }
+    
 
     .book-text1 {
         font-size: 30px;
@@ -135,10 +137,12 @@
         display: none;
     }
 
-    #b-img1 {
+    .b-img1 {
         height: 390px;
-        width: 100%;
-        margin: auto;
+        width: 300px;
+        margin: 0px;
+        text-align: center;
+        padding: 0px;
     }
 
     #book-t2 {
@@ -155,7 +159,10 @@
 
     .book-img {
         display: block;
-        margin: 0 auto;
+        margin: 10px;
+        text-align: center;
+        float: none;
+        padding: 5px;
     }
 
     .book-text {

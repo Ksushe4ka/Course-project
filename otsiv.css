@@ -29,7 +29,7 @@ legend {
 
 @media (max-width: 540px) {
 	form {
-		width: 30%;
+		width: 80%;
 		text-align: center;
 		margin-top: 30px;
 		margin-left: 35px;
@@ -54,4 +54,5 @@ legend {
 		border-radius: 10px;
 		border-color: #DFDDFF;
 	}
+	
 }
